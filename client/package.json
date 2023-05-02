@@ -1,0 +1,29 @@
+{
+	"name": "my-react-app-client",
+	"version": "1.0.0",
+	"dependencies": {
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2"
+	},
+	"devDependencies": {
+		"webpack": "^5.58.2",
+		"webpack-cli": "^4.9.1",
+		"webpack-dev-server": "^4.3.1",
+		"babel-loader": "^8.2.3",
+		"@babel/core": "^7.15.5",
+		"@babel/preset-env": "^7.15.6",
+		"@babel/preset-react": "^7.14.5",
+		"eslint": "^7.32.0",
+		"eslint-plugin-react": "^7.28.0",
+		"jest": "^27.2.5"
+	},
+	"scripts": {
+		"start": "webpack serve --config webpack.config.js --mode development",
+		"build": "webpack --config webpack.config.js --mode production",
+		"test": "jest"
+	},
+	"engines": {
+		"node": ">=12.18.0",
+		"npm": ">=6.14.4"
+	}
+}
